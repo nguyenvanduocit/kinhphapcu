@@ -14,6 +14,8 @@
 </script>
 <style lang="scss" scoped>
 	.sidebar{
-
+		@include media-breakpoint-down('sm'){
+			display: none;
+		}
 	}
 </style>

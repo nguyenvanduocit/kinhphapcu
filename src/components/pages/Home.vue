@@ -81,6 +81,9 @@
 		display: grid;
 		grid-template-columns: 250px 1fr;
 		grid-gap: 40px;
+		@include media-breakpoint-down('sm'){
+			grid-template-columns: 1fr;
+		}
 	}
 	.sweet-modal .sweet-content .sweet-modal-tab{
 		&.video-tab{

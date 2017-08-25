@@ -24,5 +24,8 @@
 		grid-template-rows: max-content;
 		grid-column-gap: 40px;
 		grid-row-gap: 50px;
+		@include media-breakpoint-down('xs'){
+			grid-template-columns: 1fr;
+		}
 	}
 </style>
