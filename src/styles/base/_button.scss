@@ -1,0 +1,13 @@
+.btn{
+  background-color: $color--primary;
+  color: #fff;
+  border-color: $color--primary;
+  transition: background-color .15s ease 0s,color .15s ease 0s;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+  outline-style: none;
+}

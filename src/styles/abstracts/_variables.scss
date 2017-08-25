@@ -1,0 +1,39 @@
+// Color
+$color--primary: rgb(64, 172, 110);
+$color--secondary: #29394c;
+$color--tertiary: #f4645f;
+$color--body: $color--secondary;
+$color--gray: #90949C;
+$color-light-gray: #f0f2f1;
+$color--dark-gray: #4B4F56;
+$color--border-color: #dee0df;
+$color--background-body: #f1f4f9;
+//Structure
+$column-count: 12;
+$gutter-width: 20px;
+
+$grid-gutter-widths: (
+  xs: $gutter-width,
+  sm: $gutter-width,
+  md: $gutter-width,
+  lg: $gutter-width,
+  xl: $gutter-width,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+// Typo
+$font-primary: 'Noto Sans', sans-serif;
